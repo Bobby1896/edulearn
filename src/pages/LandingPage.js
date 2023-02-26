@@ -14,6 +14,15 @@ import HandShaking from "../images/HandShaking.png";
 import Studio from "../images/Studio.png";
 import Arrow from "../images/Arrow.png";
 import Star from "../images/Star.png";
+import BoyOnHeadset from "../images/BoyOnHeadset.png";
+import Mentorship from "../images/Mentorship.png";
+import Access from "../images/Access.png";
+import Certificate from "../images/Certificate.png";
+import Finance from "../images/Finance.png";
+import Firstaid from "../images/Firstaid.png";
+import Call from "../images/Call.png";
+import Shoppingcart from "../images/Shoppingcart.png";
+import RedDiary from "../images/RedDiary.png";
 import "../scss/landingPage.scss";
 
 function LandingPage() {
@@ -83,18 +92,9 @@ function LandingPage() {
         <div className="row">
           <div className="cards">
             <img src={Desktop1} alt="Desktop" />
-            <h1>
-              <span
-                style={{
-                  fontSize: "28px",
-                  fontWeight: "700",
-                }}
-              >
-                UI/UX Design
-              </span>
-            </h1>
+            <h1 className="card-details">UI/UX Design</h1>
             <div className="star">
-              <p>
+              <p className="reviews">
                 <img className="star-icon" src={Star} alt="" />
                 <span
                   style={{
@@ -114,18 +114,9 @@ function LandingPage() {
 
           <div className="cards">
             <img src={Ruler} alt="Ruler" />
-            <h1>
-              <span
-                style={{
-                  fontSize: "28px",
-                  fontWeight: "700",
-                }}
-              >
-                Digital Marketing
-              </span>
-            </h1>
+            <h1 className="card-details">Digital Marketing</h1>
             <div className="star">
-              <p>
+              <p className="reviews">
                 <img className="star-icon" src={Star} alt="" />
                 <span
                   style={{
@@ -145,27 +136,11 @@ function LandingPage() {
 
           <div className="cards">
             <img src={Tab} alt="Tab" />
-            <h1>
-              <span
-                style={{
-                  fontSize: "28px",
-                  fontWeight: "700",
-                }}
-              >
-                UX Writing Introduction
-              </span>
-            </h1>
+            <h1 className="card-details">UX Writing Introduction</h1>
             <div className="star">
-              <p>
+              <p className="reviews">
                 <img className="star-icon" src={Star} alt="" />
-                <span
-                  style={{
-                    fontSize: "16px",
-                    fontWeight: "400",
-                  }}
-                >
-                  5.0 (340 reviews)
-                </span>
+                5.0 (340 reviews)
               </p>
               <p className="money">$20</p>
             </div>
@@ -178,27 +153,11 @@ function LandingPage() {
         <div className="row-2">
           <div className="cards">
             <img src={HandShaking} alt="Handshake" />
-            <h1>
-              <span
-                style={{
-                  fontSize: "28px",
-                  fontWeight: "700",
-                }}
-              >
-                Public Speaking Basics
-              </span>
-            </h1>
+            <h1 className="card-details">Public Speaking Basics</h1>
             <div className="star">
-              <p>
+              <p className="reviews">
                 <img className="star-icon" src={Star} alt="" />
-                <span
-                  style={{
-                    fontSize: "16px",
-                    fontWeight: "400",
-                  }}
-                >
-                  5.0 (340 reviews)
-                </span>
+                5.0 (340 reviews)
               </p>
               <p className="money">Free</p>
             </div>
@@ -209,27 +168,11 @@ function LandingPage() {
 
           <div className="cards">
             <img src={Chart} alt="Chart" />
-            <h1>
-              <span
-                style={{
-                  fontSize: "28px",
-                  fontWeight: "700",
-                }}
-              >
-                Content Marketing
-              </span>
-            </h1>
+            <h1 className="card-details">Content Marketing</h1>
             <div className="star">
-              <p>
+              <p className="reviews">
                 <img className="star-icon" src={Star} alt="" />
-                <span
-                  style={{
-                    fontSize: "16px",
-                    fontWeight: "400",
-                  }}
-                >
-                  5.0 (340 reviews)
-                </span>
+                5.0 (340 reviews)
               </p>
               <p className="money">$24</p>
             </div>
@@ -240,27 +183,11 @@ function LandingPage() {
 
           <div className="cards">
             <img src={Studio} alt="Studio" />
-            <h1>
-              <span
-                style={{
-                  fontSize: "28px",
-                  fontWeight: "700",
-                }}
-              >
-                Portrait Photography
-              </span>
-            </h1>
+            <h1 className="card-details">Portrait Photography</h1>
             <div className="star">
-              <p>
+              <p className="reviews">
                 <img className="star-icon" src={Star} alt="" />
-                <span
-                  style={{
-                    fontSize: "16px",
-                    fontWeight: "400",
-                  }}
-                >
-                  5.0 (340 reviews)
-                </span>
+                5.0 (340 reviews)
               </p>
               <p className="money">$26</p>
             </div>
@@ -276,8 +203,123 @@ function LandingPage() {
         <img className="arrow-icon" src={Arrow} alt="" />
       </div>
 
-      <div>
-        <p>WHY CHOOSE EDU LEARN</p>
+      <div className="section-3">
+        <div className="headset">
+          <span>
+            <img src={BoyOnHeadset} alt="" />
+          </span>
+        </div>
+
+        <div className="why-edu">
+          <h1 className="edulearn">Why EduLearn?</h1>
+
+          <div>
+            <div className="reasons">
+              <img className="whyEdu-icon" src={Access} alt="" />
+              <p className="reason"> Lifetime Access</p>
+            </div>
+            <p className="content">
+              Lifetime access to all courses on your profile
+            </p>
+          </div>
+
+          <div>
+            <div className="reasons">
+              <img className="whyEdu-icon" src={Certificate} alt="" />
+              <p className="reason">Certification</p>
+            </div>
+            <p className="content">
+              Get issued a certificate upon completion of your course.
+            </p>
+          </div>
+
+          <div>
+            <div className="reasons">
+              <img className="whyEdu-icon" src={Finance} alt="" />
+              <p className="reason">Financial Aid</p>
+            </div>
+            <p className="content">Apply for financial aid for paid courses</p>
+          </div>
+
+          <div>
+            <div className="reasons">
+              <img className="whyEdu-icon" src={Mentorship} alt="" />
+              <p className="reason">Mentorship</p>
+            </div>
+            <p className="content">
+              Get mentored by world class tutors during and after your courses.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="">
+        <div className="courses-24">
+          <h1 className="courses">Courses You Can Complete Within 24Hours</h1>
+          <p className="browse">
+            Browse through our popular and trending courses to get sarted with
+            your learning journey.
+          </p>
+        </div>
+      </div>
+
+      <div className="section-4">
+        <div className="row">
+          <div className="cards">
+            <img src={Call} alt="" />
+            <h1 className="card-details">Communication Skills 1</h1>
+            <p className="courses-card">Leslie Alexander </p>
+            {/* <img className="shop-cart" src={Shoppingcart} alt="" /> */}
+            <a href="" className="btn-cart">
+              Add to Cart
+            </a>
+          </div>
+
+          <div className="cards">
+            <img src={Firstaid} alt="" />
+            <h1 className="card-details">Basics of First Aid</h1>
+            <p className="courses-card">Brooklyn Simmons</p>
+            {/* <img className="shop-cart" src={Shoppingcart} alt="" /> */}
+            <a href="" className="btn-cart">
+              Add to Cart
+            </a>
+          </div>
+
+          <div className="cards">
+            <img src={HandShaking} alt="" />
+            <h1 className="card-details"> Negotiating like a PRO</h1>
+            <p className="courses-card">Savannah Nguyen </p>
+            <p>
+              <a href="" className="btn-cart">
+                Add to Cart
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div className="more-courses">
+          <p className="arrow">See more courses</p>
+          <img className="arrow-icon" src={Arrow} alt="" />
+        </div>
+
+        <div className="section-5">
+          <div className="aid">
+            <p className="apply">
+              Apply for <br /> financial aid
+            </p>
+            <p className="get">
+              Get financial aid to complete your courses <br /> and also get
+              cerified with just a few <br /> processes.
+            </p>
+            <a href="" className="aid-btn">
+              Join for free
+            </a>
+          </div>
+
+          <div>
+            <img src={RedDiary} alt="" />
+          </div>
+        </div>
       </div>
     </body>
   );

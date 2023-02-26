@@ -1,5 +1,16 @@
 @import './variables';
-
+@font-face {
+    font-family: inter;
+    src: url('../fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+@font-face {
+    font-family: poppins;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: DMSans;
+    src: url('../fonts/DMSans-Regular.ttf');
+}
 body {
     margin: 0 auto;
     box-sizing: border-box;
@@ -21,6 +32,7 @@ body {
     color: $text-color;
     font-weight: map-get($font-weights, big);
     font-style: $font-style;
+    font-family: inter;
 }
 
 .register {
@@ -28,8 +40,10 @@ body {
     height: 108px;
     color: $text-color;
     font-style: $font-style;
+    font-family: inter;
     font-size: 24px;
     line-height: 36px;
+    margin-bottom: 70px;
 }
 
 .btn-1 {
@@ -41,7 +55,7 @@ body {
     padding: 12px;
     text-decoration: none;
     align-items: center;
-
+    font-family: inter;
 
 }
 .blue-bg{
@@ -60,9 +74,15 @@ body {
     top: 80px;
 }
 
+.card-details{
+    font-size: 28px;
+    font-weight: map-get($font-weights, big);
+    font-family: inter;
+}
 .figures{
     font-size: 20px;
     font-weight: map-get($font-weights, bold );
+    font-family: inter;
     line-height: 58px;
     height: 58px;
     gap: 5rem;
@@ -93,6 +113,7 @@ body {
     font-size: 24px;
     line-height: 36px;
     margin-top: 400px;
+    font-family: poppins;
 }
 .container{
     width: 100%;
@@ -128,16 +149,23 @@ body {
 .star{
     display: flex;
     justify-content: space-between;
-    margin-top: -45px;
+    margin-top: -30px;
 }
 .star-icon{
     width: 20px;
     height: 15px;
     margin-top: 20px;
 }
+.reviews{
+    font-size: 16px;
+    font-weight: map-get($font-weights, regular );
+    font-family: poppins;
+    
+}
 .money{
     font-size: 30px;
-    font-weight: "600";
+    font-weight: map-get($font-weights , big );
+    font-family: poppins;
 
 }
 .row-2{
@@ -146,15 +174,127 @@ body {
     align-items: center;
     margin-top: 20px;
 }
+.more-courses{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+   
+}
 .arrow{
     font-size: 24px;
     font-weight: map-get($font-weights, regular );
     margin-top: 50px;
-    justify-content: center;
-    
+    font-family: DMSans;
+}
+.arrow-icon{
+    width: 20px;
+    height: 16px;
+    margin-top: 57px;
+}
+.section-3{
     display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.why-edu{
+    margin-top: -10px;
+}
+.edulearn{
+    font-size: 48px;
+    letter-spacing: 0.015em;
+    line-height: 72px;
+    font-family: poppins;
+}
+.reasons{
+    display: flex;
+}
+.reason{
+    font-weight: map-get($font-weights , big );
+    font-size: 24px;
+    line-height: 30px;
+    font-family: poppins;
+}
+.whyEdu-icon{
+    margin-top:15px;
+}
+.content{
+    margin-left: 70px;
+    margin-top: -30px;
+    font-weight: map-get($font-weights, regular );
+    font-size: 18px;
+    line-height: 36px;
+    font-family: DMSans;
+}
+.courses{
+    font-family: poppins;
+    font-weight: map-get($font-weights , big );
+    font-size: 48px;
+    line-height: 50px;
+}
+.browse{
+    font-size: 24px;
+    font-weight: map-get($font-weights , regular );
+    font-family: DMSans;
+    line-height: 5px;
+    margin-bottom: 50px;
+}
+.courses-24{
+    text-align: left;
+    margin-top: 100px;
+}
+.card-details{
+    font-family: poppins;
+}
+.courses-card{
+    font-family: poppins;
+    font-weight: map-get($font-weights , regular );
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: -10px;
+}
+// .shop-cart{
+//     margin-left: 30px;
+// }
+.btn-cart {
+    text-decoration: none;
+    font-size: 24px;
+    color: $primary-color;
+    box-sizing: border-box;
+    background-color: #FBFBFB;
+    padding: 15px 100px ;
+    border: 2px solid #4285F4;
+    border-radius: 7px;
+    font-weight: map-get($font-weights , medium);
+    font-family: inter;
 
 }
-// .more-courses{
-//     display: flex;
-// }
+.section-5{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 100px;
+}
+.aid-btn{
+    background-color: $primary-color;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: map-get($font-weights , medium);
+    border-radius: 5px;
+    padding: 12px;
+    text-decoration: none;
+    align-items: center;
+    font-family: inter;
+}
+.apply{
+    font-size: 48px;
+    font-weight: map-get($font-weights , big) ;
+    font-family: poppins;
+    margin-bottom: -10px;
+}
+.get{
+    font-size: 24px;
+    font-weight: map-get($font-weights ,regular);
+    font-family: poppins;
+    line-height: 36px;
+    margin-bottom: 43px;
+}
