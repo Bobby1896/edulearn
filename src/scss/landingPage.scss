@@ -1,0 +1,160 @@
+@import './variables';
+
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 90%;
+    font-family: $font-family;
+    // overflow: hidden;
+}
+
+.first-paragraph{
+    display: flex;
+    
+}
+
+.kickstart{
+    width: 635px;
+    height: 264px;
+    font-size: 64px;
+    line-height: 88px;
+    color: $text-color;
+    font-weight: map-get($font-weights, big);
+    font-style: $font-style;
+}
+
+.register {
+    width: 602px;
+    height: 108px;
+    color: $text-color;
+    font-style: $font-style;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.btn-1 {
+    background-color: $primary-color;
+    color:#FFFFFF ;
+    font-size: 24px;
+    font-weight: map-get($font-weights , medium );
+    border-radius: 5px;
+    padding: 12px;
+    text-decoration: none;
+    align-items: center;
+
+
+}
+.blue-bg{
+    position: absolute;
+    width: 674px;
+    height: 877px;
+    left: 840.8px;
+    top: -46.54px;
+}
+
+.glass-lady{
+    position: absolute;
+    width: 770px;
+    height: 750px;
+    left: 670px;
+    top: 80px;
+}
+
+.figures{
+    font-size: 20px;
+    font-weight: map-get($font-weights, bold );
+    line-height: 58px;
+    height: 58px;
+    gap: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 8px 16px 24px rgba(16, 16, 15, 0.05);
+    border-radius: 10px;
+    position: absolute;
+    width: 1000px;
+    height: 120px;
+    left: 213px;
+    top: 750px;
+        
+}
+.brands{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 96px;
+    height: 40px;
+    width: 20px
+}
+.trending{
+    font-weight: map-get($font-weights, regular);
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 400px;
+}
+.container{
+    width: 100%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.cards{
+    background: #FBFBFB;
+    box-shadow: 0px 5px 25px rgba(137, 113, 113, 0.25);
+    border-radius: 8px;
+    flex-direction: column;
+    padding: 20px 20px 35px;
+    gap: 24px;
+}
+.cards:hover{
+    box-shadow: 0px 5px 15px 10px rgba(0, 0, 0, 0.25)
+}
+.btn{
+    text-decoration: none;
+    font-size: 24px;
+    color: #FBFBFB;
+    box-sizing: border-box;
+    background-color: $primary-color;
+    padding: 12px 20px;
+    border: 1px solid #4285F4;
+    border-radius: 7px;
+    margin-bottom:15px ;
+}
+.star{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -45px;
+}
+.star-icon{
+    width: 20px;
+    height: 15px;
+    margin-top: 20px;
+}
+.money{
+    font-size: 30px;
+    font-weight: "600";
+
+}
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.arrow{
+    font-size: 24px;
+    font-weight: map-get($font-weights, regular );
+    margin-top: 50px;
+    justify-content: center;
+    
+    display: flex;
+
+}
+// .more-courses{
+//     display: flex;
+// }

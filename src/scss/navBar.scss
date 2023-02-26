@@ -1,0 +1,67 @@
+@import './variables';
+
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 90%;
+    font-family: $font-family;
+}
+
+.logo {
+    color: $primary-color;
+    width: 112px;
+    height: 24px;
+    left: 0px;
+    top: 20px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: map-get($font-weights , bold );
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 2rem;
+
+    ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        gap: 3rem;
+        width: 72px;
+        height: 22px;
+        line-height: 24px ;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    a{
+        text-decoration: none;
+    }
+}
+
+.header{
+    color: $text-color;
+    font-weight: map-get($font-weights, regular);
+}
+
+.login-button{
+    background-color: $primary-color;
+    color: #f0f0f0;
+    width: 64px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: map-get($font-weights, medium);
+    padding: 5px ;
+    padding-left: 15px;
+    padding-top: 5px ;
+    border-radius: 5px;
+    border-color: #f0f0f0;
+    
+
+}
