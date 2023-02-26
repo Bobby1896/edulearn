@@ -275,6 +275,10 @@ function LandingPage() {
         <p className="arrow">See more courses</p>
         <img className="arrow-icon" src={Arrow} alt="" />
       </div>
+
+      <div>
+        <p>WHY CHOOSE EDU LEARN</p>
+      </div>
     </body>
   );
 }
