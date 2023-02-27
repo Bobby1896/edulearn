@@ -368,14 +368,17 @@ function LandingPage() {
 
       <div className="section-7">
         <div className="community">
-          <p className="join">Join Our Student Community</p>
+          <p className="join">
+            Join Our Student <br /> Community
+          </p>
           <p className="update">
-            Get firsthand updates about course, discounts, pricing and
-            everything about your membership at eduLearn.
+            Get firsthand updates about course,
+            <br /> discounts, pricing and everything about your <br />
+            membership at eduLearn.
           </p>
           <div className="subscribe">
-            <input type="text" placeholder="Email Address" />
-            <a href="" className="aid-btn">
+            <input className="input" type="text" placeholder="Email Address" />
+            <a href="" className="subscribe-btn">
               Subscribe
             </a>
           </div>
