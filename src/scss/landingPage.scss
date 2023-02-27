@@ -298,3 +298,82 @@ body {
     line-height: 36px;
     margin-bottom: 43px;
 }
+.student{
+    font-weight: map-get($font-weights , big);
+    font-size: 48px;
+    font-family: poppins;
+    margin-top: 120px;
+}
+.section-6{
+    display: flex;
+    gap: 35px;
+}
+.plain-card{
+    padding: 35px 48px;
+    background: rgba(66, 133, 244, 0.1);
+    border-radius: 12px;
+}
+.passport{
+    text-align: center;
+    font-size: 24px;
+    font-family: inter;
+    font-weight: map-get($font-weights , regular);
+    line-height: 32px;
+}
+.join{
+    font-size: 48px;
+    font-weight: map-get($font-weights , big);
+    line-height: 20px;
+    font-family: poppins;
+    margin-top: 150px;
+}
+.update{
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: map-get($font-weights , regular);
+    line-height: 36px;
+}
+.section-7{
+    display: flex;
+    justify-content: space-between;
+
+}
+.group-images{
+    // margin-top: 1000%;
+}
+
+.img1{
+    position: absolute;
+    width: 171.52px;
+    height: 171.52px;
+    left: 953.26px;
+    top: 735%;
+}
+.img2{
+    position: absolute;
+    width: 171.52px;
+    height: 171.52px;
+    left: 744px;
+    top: 760%;
+}
+.img3{
+    position: absolute;
+    width: 171.52px;
+    height: 171.52px;
+    right: 10%;
+    top: 770%;
+}
+.img4{
+    position: absolute;
+    width: 171.52px;
+    height: 171.52px;
+    left: 953.26px;
+    top:780%;
+}
+.img5{
+    position: absolute;
+    width: 308.74px;
+    height: 272.82px;
+    left: 884.65px;
+    top: 750%;
+}

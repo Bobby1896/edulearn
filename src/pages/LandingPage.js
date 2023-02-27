@@ -23,6 +23,13 @@ import Firstaid from "../images/Firstaid.png";
 import Call from "../images/Call.png";
 import Shoppingcart from "../images/Shoppingcart.png";
 import RedDiary from "../images/RedDiary.png";
+import Passport from "../images/Passport.png";
+import Stargroups from "../images/Stargroups.png";
+import Group1 from "../images/Group1.png";
+import Group2 from "../images/Group2.png";
+import Group3 from "../images/Group3.png";
+import Group4 from "../images/Group4.png";
+import Group5 from "../images/Group5.png";
 import "../scss/landingPage.scss";
 
 function LandingPage() {
@@ -319,6 +326,67 @@ function LandingPage() {
           <div>
             <img src={RedDiary} alt="" />
           </div>
+        </div>
+
+        <p className="student">What Our Students Have to Say</p>
+
+        <div className="section-6">
+          <div className="plain-card">
+            <div className="passport">
+              <img src={Passport} alt="" />
+              <p>Olivia Shawn</p>
+              <img src={Stargroups} alt="" />
+              <p>
+                I started out my career in product design by taking courses from
+                eduLearn.
+              </p>
+            </div>
+          </div>
+
+          <div className="plain-card">
+            <div className="passport">
+              <img src={Passport} alt="" />
+              <p className="name">Olivia Shawn</p>
+              <img src={Stargroups} alt="" />
+              <p>
+                It’s a very good platform to kickstart a career or learn
+                anything at all.
+              </p>
+            </div>
+          </div>
+
+          <div className="plain-card">
+            <div className="passport">
+              <img src={Passport} alt="" />
+              <p>Olivia Shawn</p>
+              <img src={Stargroups} alt="" />
+              <p>Learnt how to read and write French Language on eduLearn.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="section-7">
+        <div className="community">
+          <p className="join">Join Our Student Community</p>
+          <p className="update">
+            Get firsthand updates about course, discounts, pricing and
+            everything about your membership at eduLearn.
+          </p>
+          <div className="subscribe">
+            <input type="text" placeholder="Email Address" />
+            <a href="" className="aid-btn">
+              Subscribe
+            </a>
+          </div>
+        </div>
+
+        <div className="group-images">
+          <img className="img1" src={Group1} alt="" />
+          <img className="img2" src={Group4} alt="" />
+          <img className="img3" src={Group3} alt="" />
+          <img className="img4" src={Group2} alt="" />
+          <img className="img5" src={Group5} alt="" />
         </div>
       </div>
     </body>
