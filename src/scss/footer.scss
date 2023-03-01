@@ -1,0 +1,62 @@
+@import './variables';
+
+@font-face {
+    font-family: inter;
+    src: url('../fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+@font-face {
+    font-family: poppins;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: DMSans;
+    src: url('../fonts/DMSans-Regular.ttf');
+}
+
+footer{
+    background-color: $primary-color;
+}
+
+.footer{
+    display: flex;
+    padding: 80px 100px 30px 30px;
+    color: #F0F0F0;
+    margin-top: 150px;
+    justify-content: space-around;
+
+    a{
+        text-decoration: none;
+        color: #F0F0F0;
+    }
+}
+
+.footer div{
+    text-align: left;
+
+    p{
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: map-get($font-weights, regular);
+    font-family: poppins;
+    }
+} 
+
+.headers{
+    font-weight: map-get($font-weights, big );
+    font-size: 20px;
+    line-height: 36px;
+    font-family: poppins;
+}
+.copyright{
+    text-align: center;
+    color: #F0F0F0;
+    padding-bottom: 10px;
+
+}
+
+
+
+
+

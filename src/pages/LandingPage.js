@@ -30,6 +30,7 @@ import Group2 from "../images/Group2.png";
 import Group3 from "../images/Group3.png";
 import Group4 from "../images/Group4.png";
 import Group5 from "../images/Group5.png";
+
 import "../scss/landingPage.scss";
 
 function LandingPage() {

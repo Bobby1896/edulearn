@@ -16,6 +16,7 @@ body {
     box-sizing: border-box;
     width: 90%;
     font-family: $font-family;
+    z-index: 0;
     // overflow: hidden;
 }
 
@@ -63,7 +64,9 @@ body {
     width: 674px;
     height: 877px;
     left: 840.8px;
+    // top: 0px;
     top: -46.54px;
+    
 }
 
 .glass-lady{

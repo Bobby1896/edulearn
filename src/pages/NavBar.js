@@ -9,31 +9,28 @@ function NavBar() {
           eduLearn
         </a>
         <ul>
-          <li>
-            <a href="" className="header">
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="" className="header">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="" className="header">
-              Courses
-            </a>
-          </li>
-          <li>
-            <a href="" className="header">
-              Prices
-            </a>
-          </li>
+          <a href="" className="header">
+            Home
+          </a>
+
+          <a href="" className="header">
+            About
+          </a>
+
+          <a href="" className="header">
+            Courses
+          </a>
+
+          <a href="" className="header">
+            Prices
+          </a>
         </ul>
 
-        <a href="" className="login-button">
-          Login
-        </a>
+        <div>
+          <a href="" className="login-button">
+            Login
+          </a>
+        </div>
       </nav>
     </body>
   );
