@@ -35,7 +35,7 @@ body {
 
     ul{
         padding: 0;
-        margin: 0;
+        // margin: 0;
         list-style: none;
         display: flex;
         gap: 2rem;
@@ -45,6 +45,8 @@ body {
         font-size: 20px;;
         justify-content: center;
         font-family: inter;
+        margin-right: 14%;
+        margin-top: 0;
     }
 
     a{
@@ -55,6 +57,7 @@ body {
 .header{
     color: $text-color;
     font-weight: map-get($font-weights, regular);
+    font-family: inter;
 }
 
 .login-button{
@@ -69,7 +72,6 @@ body {
     padding-top: 5px ;
     border-radius: 5px;
     border-color: #f0f0f0;
-    position: absolute;
-    left: 840.8px;
-
+    // position: absolute;
+    margin-left: 20px;
 }
